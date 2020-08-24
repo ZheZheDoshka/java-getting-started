@@ -4,7 +4,6 @@ package ua.stepess.java.course.first.switchex;
 import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
-import ua.stepess.java.course.first.switchex.NumberOfDaysResolver;
 
 public class NumberOfDaysResolverTest {
 

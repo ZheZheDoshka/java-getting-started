@@ -1,4 +1,4 @@
-package ua.stepess.java.course.first;
+package ua.stepess.java.course.first.cycle;
 
 /**
  * should find sum of first N odd numbers:

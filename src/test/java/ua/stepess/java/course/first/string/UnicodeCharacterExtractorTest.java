@@ -1,8 +1,9 @@
-package ua.stepess.java.course.first;
+package ua.stepess.java.course.first.string;
 
 import static org.junit.Assert.assertEquals;
 
 import org.junit.Test;
+import ua.stepess.java.course.first.string.UnicodeCharacterExtractor;
 
 public class UnicodeCharacterExtractorTest {
 

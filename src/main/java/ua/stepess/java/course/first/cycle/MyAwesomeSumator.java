@@ -1,4 +1,4 @@
-package ua.stepess.java.course.first;
+package ua.stepess.java.course.first.cycle;
 
 /**
  * Should sum all elements of the massive

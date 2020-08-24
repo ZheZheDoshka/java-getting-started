@@ -1,4 +1,4 @@
-package ua.stepess.java.course.first;
+package ua.stepess.java.course.first.string;
 
 /**
  * Should return unicode representation of character on specified index

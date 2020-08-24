@@ -1,4 +1,4 @@
-package ua.stepess.java.course.first;
+package ua.stepess.java.course.first.switchex;
 
 /**
  * Write a Java program to find the number of days in a month.

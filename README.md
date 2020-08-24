@@ -1,4 +1,4 @@
-# Java Getting Startedgs exercises
+# Java Getting Started exercises
 
 This project comprises exercises for Java beginners to get familiarize with language basics. 
 

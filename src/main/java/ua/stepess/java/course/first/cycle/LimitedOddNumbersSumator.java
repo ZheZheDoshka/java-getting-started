@@ -17,8 +17,14 @@ package ua.stepess.java.course.first.cycle;
 public class LimitedOddNumbersSumator {
 
     public int sum(int limit) {
-        // TODO: write here
-        return 0;
+        int x = 0;
+        int q = 1;
+        for (int i = 0; i<limit; i++)
+        {
+            x = x + q; //add odd number
+            q = q + 2; //increase odd number
+        }
+        return x;
     }
 
 }

@@ -6,8 +6,11 @@ package ua.stepess.java.course.first.string;
  */
 public class UnicodeCharacterExtractor {
 
-    public int extract(String s, int index) {
-        return 0;
+    public int extract(String s, int index)//imma gonna try something at random
+    {
+        char ch = s.charAt(index);
+        int uni = ch; //it worked! i guess. Test says so.
+        return ch;
     }
 
 }

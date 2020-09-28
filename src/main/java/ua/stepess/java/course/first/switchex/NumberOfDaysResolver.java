@@ -5,9 +5,19 @@ package ua.stepess.java.course.first.switchex;
  */
 public class NumberOfDaysResolver {
 
-    public int resolve(int month, int year) {
+    public int resolve(int month, int year) //why switchex?
+    {
         // TODO: write here
-        return 0;
+        if (month == 2)
+        {
+            if (year % 4 == 0) { return(29); }
+            else return 28;//
+        }
+        if (month % 2 == 1)
+        {
+            return (31); //я то ставлю дужки то не ставлю. сподіваюсь, не проблема.
+        }
+        return 30;
     }
 
 }

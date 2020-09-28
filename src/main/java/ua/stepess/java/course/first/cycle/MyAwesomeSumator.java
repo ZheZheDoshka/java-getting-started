@@ -7,7 +7,11 @@ public class MyAwesomeSumator {
 
     public int sum(int[] nums) {
         // TODO: write here
-        return 0;
+        int x = 0; //sum
+        int size = nums.length;
+        for (int i = 0; i<size; i++)
+        { x = x + nums[i]; } //doing sum
+        return x;
     }
 
 }

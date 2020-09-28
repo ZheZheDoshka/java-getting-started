@@ -10,8 +10,15 @@ package ua.stepess.java.course.first.condiitonal;
 public class QuadraticEquitationSolver {
 
     public double[] solve(int a, int b, int c) {
-        //TODO: write code here
-        return new double[0];
+        double d = b*b - 4*a*c;
+        if (d<0)
+        {return new double[2];} //exits if there are no roots. also, it screams on me. Empty array is a lie
+        d = Math.sqrt(d); //called the square root function for d here to call less later
+        double x[] = new double [2]; //created root massive.
+        x[0] = (d - b) / (2*a);
+        if (d == 0) { x[1] = 0; }
+        else { x[1] = (-b - d) / (2*a); }
+        return x;
     }
 
 }
